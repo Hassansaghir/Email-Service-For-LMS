@@ -1,4 +1,4 @@
-package com.Library_management_system.EmailService.Models;
+package com.lms.emailservice.model;
 
 import lombok.Data;
 

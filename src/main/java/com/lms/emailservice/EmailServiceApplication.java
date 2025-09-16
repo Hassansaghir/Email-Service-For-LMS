@@ -1,5 +1,4 @@
-package com.Library_management_system.EmailService;
-
+package com.lms.email-service.Services;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,7 +1,7 @@
-package com.Library_management_system.EmailService.Controllers;
+package com.lms.emailservice.Controllers;
 
-import com.Library_management_system.EmailService.Models.EmailRequest;
-import com.Library_management_system.EmailService.Services.EmailService;
+import com.lms.emailservice.Models.EmailRequest;
+import com.lms.emailservice.Services.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
