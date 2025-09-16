@@ -11,8 +11,8 @@
 
 	</parent>
 
-	<groupId>com.Library-management-system</groupId>
-	<artifactId>EmailService</artifactId>
+	<groupId>com.lms</groupId>
+	<artifactId>emailservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EmailService</name>
 	<description>Email Notification Microservice</description>

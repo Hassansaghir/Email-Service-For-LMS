@@ -1,9 +1,10 @@
-package com.lms.emailservice.model;
+package com.lms.emailservice.dto;
 
-import lombok.Data;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
-@Data
-public class EmailRequest {
-    private String email;
-    private String message;
-}
+public record EmailRequest(
+        @NotBlank @Email String email,
+        @NotBlank @Size(max = 2000) String message
+) {}

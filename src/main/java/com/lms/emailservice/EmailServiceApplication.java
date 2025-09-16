@@ -1,4 +1,4 @@
-package com.lms.email-service.Services;
+package com.lms.emailservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
